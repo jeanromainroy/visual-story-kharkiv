@@ -13,8 +13,6 @@ The research combines testimonies, on-site damage assessments, videos of the she
 
  - [FFmpeg](https://ffmpeg.org/download.html) 
 
- - [QGIS](https://qgis.org/en/site/)
-
 
 ## Mise-en-place
 
