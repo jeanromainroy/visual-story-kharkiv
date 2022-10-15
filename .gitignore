@@ -1,0 +1,42 @@
+*.qmd
+.DS_Store
+node_modules/
+package-lock.json
+utils/*.json
+utils/*/*.json
+utils/output-scraper/*.json
+utils/output-parser/*.json
+utils/output-parser/*.geojson
+utils/output-parser/*.tif
+utils/output-parser/*.png
+utils/output-parser/*.zip
+utils/__pycache__/
+
+# project
+public/incidents/*/*.tiff
+public/incidents/*/*.png
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

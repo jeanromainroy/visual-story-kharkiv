@@ -1,0 +1,14 @@
+[
+    {
+        "bbox": [36.098652516, 50.120869363, 36.402445683, 49.892869807],
+        "filepath": "map/kharkiv/terrain.jpg",
+        "radius_offset": 0.0,
+        "opacity": 0.5
+    },
+    {
+        "bbox": [36.047426003, 49.91935103, 36.395751326, 50.07433144],
+        "filepath": "map/kharkiv/buildings.png",
+        "radius_offset": 0.0001,
+        "opacity": 0.2
+    }
+]

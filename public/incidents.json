@@ -1,0 +1,449 @@
+{
+    "type": "FeatureCollection",
+    "name": "incidents",
+    "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+    "features": [
+        {
+            "type": "Feature", 
+            "properties": { 
+                "ID": 1,
+                "TITLE": "Gouvernement",
+                "SUBTITLE": "1er mars",
+                "DATE": "2022-03-01",
+                "COVER": "incidents/kharkiv/government/cover.mp4",
+                "TEXT_KEY": "state",
+                "REF": [
+                    "https://t.me/xc_kharkiv/39233",
+                    "https://twitter.com/nexta_tv/status/1532857658721636353"
+                ],
+                "SATELLITE": {
+                    "before": {
+                        "asset": "incidents/kharkiv/government/sat-before.jpg",
+                        "date": "9th July, 2021"
+                    },
+                    "after": {
+                        "asset": "incidents/kharkiv/government/sat-after.jpg",
+                        "date": "9th July, 2022"
+                    },
+                    "bbox": [36.233962552, 50.006132679, 36.239330033, 50.002418281]
+                },
+                "DATA": [
+                    {
+                        "asset": "incidents/kharkiv/government/after.jpg",
+                        "objects": "incidents/kharkiv/government/after.svg",
+                        "animation": "incidents/kharkiv/government/after.json"
+                    }
+                ]
+            }, 
+            "geometry": { 
+                "type": "Polygon", 
+                "coordinates": [ [ [ 36.236019432164362, 50.004759287697063 ], [ 36.235715441353591, 50.003843467279815 ], [ 36.237243091377323, 50.003635676092706 ], [ 36.23744318659454, 50.004513016660496 ], [ 36.236019432164362, 50.004759287697063 ] ] ] 
+            }
+        },
+        {
+            "type": "Feature", 
+            "properties": { 
+                "ID": 2,
+                "TITLE": "Éducation",
+                "SUBTITLE": "2 mars",
+                "DATE": "2022-03-02",
+                "COVER": "incidents/kharkiv/university/cover.mp4",
+                "TEXT_KEY": "uni",
+                "REF": [
+                    "https://twitter.com/DAlperovitch/status/1498914132225048576"
+                ],
+                "SATELLITE": {
+                    "before": {
+                        "asset": "incidents/kharkiv/university/sat-before.jpg",
+                        "date": "9th July, 2021"
+                    },
+                    "after": {
+                        "asset": "incidents/kharkiv/university/sat-after.jpg",
+                        "date": "9th July, 2022"
+                    },
+                    "bbox": [36.233829751, 50.001372007, 36.238600704, 49.998070419]
+                },
+                "DATA": [
+                    {
+                        "asset": "incidents/kharkiv/university/after.jpg",
+                        "objects": "incidents/kharkiv/university/after.svg",
+                        "animation": "incidents/kharkiv/university/after.json"
+                    }
+                ]
+            }, 
+            "geometry": { 
+                "type": "Polygon", 
+                "coordinates": [ [ [ 36.235150744531367, 50.000039242099739 ], [ 36.234900296534661, 49.999225771474791 ], [ 36.235830254599932, 49.999089869461081 ], [ 36.236104000084701, 49.999934403403444 ], [ 36.235150744531367, 50.000039242099739 ] ] ] 
+            }
+        },
+        {
+            "type": "Feature", 
+            "properties": { 
+                "ID": 3,
+                "TITLE": "Pris en étau",
+                "SUBTITLE": "Boulevard Lesia Serdiuka",
+                "DATE": "2022-03-02",
+                "COVER": "incidents/kharkiv/frontline/cover.mp4",
+                "TEXT_KEY": "front",
+                "REF": [
+                    "https://www.youtube.com/watch?v=GBuTBFgzgBA",
+                    "https://twitter.com/KyivIndependent/status/1525356022541459456",
+                    "https://twitter.com/DGisSERIOUS/status/1524334156452450304",
+                    "https://twitter.com/tinso_ww/status/1499485404269101059",
+                    "https://twitter.com/ThomasVLinge/status/1498722939008659458"
+                ],
+                "SATELLITE": {
+                    "before": {
+                        "asset": "incidents/kharkiv/frontline/sat-before.jpg",
+                        "date": "4th May, 2021"
+                    },
+                    "after": {
+                        "asset": "incidents/kharkiv/frontline/sat-after.jpg",
+                        "date": "7th May, 2022"
+                    },
+                    "bbox": [36.347637344, 50.045438159, 36.352860183, 50.041823857]
+                },
+                "DATA": [
+                    {
+                        "ref": "Parking Lot",
+                        "asset": "incidents/kharkiv/frontline/after.jpg",
+                        "objects": "incidents/kharkiv/frontline/after.svg",
+                        "animation": "incidents/kharkiv/frontline/after.json"
+                    },
+                    {
+                        "ref": "Playground",
+                        "asset": "incidents/kharkiv/37/30/after.jpg",
+                        "objects": "incidents/kharkiv/37/30/after.svg",
+                        "animation": "incidents/kharkiv/37/30/after.json"
+                    }
+                ]
+            }, 
+            "geometry": { 
+                "type": "Polygon", 
+                "coordinates": [ [ [ 36.350040868699153, 50.041788671854107 ], [ 36.352858181221691, 50.045083494973689 ], [ 36.352866139731638, 50.044741279045809 ], [ 36.350255748467823, 50.041661335694897 ], [ 36.350040868699153, 50.041788671854107 ] ] ] 
+            }
+        },
+        {
+            "type": "Feature", 
+            "properties": { 
+                "ID": 4,
+                "TITLE": "Église",
+                "SUBTITLE": "1er mars",
+                "DATE": "2022-03-08",
+                "COVER": "incidents/kharkiv/church/cover.mp4",
+                "TEXT_KEY": "church",
+                "REF": [
+                    "https://twitter.com/michaelh992/status/1501228054102052867"
+                ],
+                "SATELLITE": {
+                    "before": {
+                        "asset": "incidents/kharkiv/church/sat-before.jpg",
+                        "date": "4th May, 2021"
+                    },
+                    "after": {
+                        "asset": "incidents/kharkiv/church/sat-after.jpg",
+                        "date": "7th May, 2022"
+                    },
+                    "bbox": [36.343011599, 50.040260216, 36.346306556, 50.037980043]
+                },
+                "DATA": [
+                    {
+                        "asset": "incidents/kharkiv/church/after.jpg",
+                        "objects": "incidents/kharkiv/church/after.svg",
+                        "animation": "incidents/kharkiv/church/after.json"
+                    }
+                ]
+            }, 
+            "geometry": { 
+                "type": "Polygon", 
+                "coordinates": [ [ [ 36.343344435816796, 50.038624085954496 ], [ 36.343344435816796, 50.039059471883576 ], [ 36.343841555571636, 50.03955334248969 ], [ 36.344696081686173, 50.039072468478473 ], [ 36.344156722997909, 50.038451881072099 ], [ 36.343344435816796, 50.038624085954496 ] ] ] 
+            }
+        },
+        {
+            "type": "Feature", 
+            "properties": { 
+                "ID": 5,
+                "TITLE": "Cimetière",
+                "SUBTITLE": "3 mars",
+                "DATE": "2022-03-03",
+                "COVER": "incidents/kharkiv/cemetery/cover.mp4",
+                "TEXT_KEY": "cemetery",
+                "REF": [
+                    "https://t.me/Pravda_Gerashchenko/1607",
+                    "https://twitter.com/O_Ostapchuk/status/1515083876103856128",
+                    "https://twitter.com/uafreesky/status/1508110106193502215"
+                ],
+                "SATELLITE": {
+                    "before": {
+                        "asset": "incidents/kharkiv/cemetery/sat-before.jpg",
+                        "date": "4th May, 2021"
+                    },
+                    "after": {
+                        "asset": "incidents/kharkiv/cemetery/sat-after.jpg",
+                        "date": "7th May, 2022"
+                    },
+                    "bbox": [36.335391311, 50.037768558, 36.341060501, 50.033845372]
+                },
+                "DATA": [
+                    {
+                        "ref": "tomb",
+                        "asset": "incidents/kharkiv/cemetery/after.jpg",
+                        "objects": "incidents/kharkiv/cemetery/after.svg",
+                        "animation": "incidents/kharkiv/cemetery/after.json"
+                    }
+                ]
+            }, 
+            "geometry": { 
+                "type": "Polygon", 
+                "coordinates": [ [ [ 36.336858093641084, 50.037462753150074 ], [ 36.340101728658624, 50.036791656249896 ], [ 36.338977641350823, 50.03482869781687 ], [ 36.336337993543445, 50.035399130182022 ], [ 36.336858093641084, 50.037462753150074 ] ] ] 
+            }
+        },
+        {
+            "type": "Feature", 
+            "properties": { 
+                "ID": 6,
+                "TITLE": "École",
+                "SUBTITLE": "5 avril",
+                "DATE": "2022-04-05",
+                "COVER": "incidents/kharkiv/school/cover.mp4",
+                "TEXT_KEY": "school",
+                "REF": [
+                    "https://t.me/xc_kharkiv/43508"
+                ],
+                "SATELLITE": {
+                    "before": {
+                        "asset": "incidents/kharkiv/school/sat-before.jpg",
+                        "date": "4th May, 2021"
+                    },
+                    "after": {
+                        "asset": "incidents/kharkiv/school/sat-after.jpg",
+                        "date": "7th May, 2022"
+                    },
+                    "bbox": [36.355352401, 50.038845763, 36.359397387, 50.036046556]
+                },
+                "DATA": [
+                    {
+                        "asset": "incidents/kharkiv/school/after.jpg",
+                        "objects": "incidents/kharkiv/school/after.svg",
+                        "animation": "incidents/kharkiv/school/after.json"
+                    }
+                ]
+            }, 
+            "geometry": { 
+                "type": "Polygon",
+                "coordinates": [ [ [ 36.356699879143726, 50.037816870475915 ], [ 36.356859306392401, 50.036816464490485 ], [ 36.358278208905595, 50.036920092202116 ], [ 36.358114795975709, 50.037896584100253 ], [ 36.356699879143726, 50.037816870475915 ] ] ] 
+            }
+        },
+        {
+            "type": "Feature", 
+            "properties": { 
+                "ID": 7,
+                "TITLE": "Santé",
+                "SUBTITLE": "6 avril",
+                "DATE": "2022-04-06",
+                "COVER": "incidents/kharkiv/hospital/cover.mp4",
+                "TEXT_KEY": "hospital",
+                "REF": [
+                    "https://twitter.com/TpyxaNews/status/1511612543357394945",
+                    "https://twitter.com/Flash_news_ua/status/1516143148086480899",
+                    "https://t.me/informatsia_obstanovka/13355"
+                ],
+                "SATELLITE": {
+                    "before": {
+                        "asset": "incidents/kharkiv/hospital/sat-before.jpg",
+                        "date": "4th May, 2021"
+                    },
+                    "after": {
+                        "asset": "incidents/kharkiv/hospital/sat-after.jpg",
+                        "date": "7th May, 2022"
+                    },
+                    "bbox": [36.359788853, 50.038730405, 36.362474044, 50.036872202]
+                },
+                "DATA": [
+                    {
+                        "asset": "incidents/kharkiv/hospital/after.jpg",
+                        "objects": "incidents/kharkiv/hospital/after.svg",
+                        "animation": "incidents/kharkiv/hospital/after.json"
+                    }
+                ]
+            }, 
+            "geometry": { 
+                "type": "Polygon", 
+                "coordinates": [ [ [ 36.360151615875175, 50.038410166931726 ], [ 36.361362741279081, 50.038017942512077 ], [ 36.361762916193719, 50.038619529966532 ], [ 36.360551790789813, 50.03893224943625 ], [ 36.360151615875175, 50.038410166931726 ] ] ] 
+            } 
+        },
+        {
+            "type": "Feature", 
+            "properties": { 
+                "ID": 8,
+                "TITLE": "Loisir",
+                "SUBTITLE": "14 avril",
+                "DATE": "2022-04-14",
+                "COVER": "incidents/kharkiv/gorky/cover.mp4",
+                "TEXT_KEY": "gorky",
+                "REF": [
+                    "https://twitter.com/nexta_tv/status/1514485377209360384"
+                ],
+                "SATELLITE": {
+                    "before": {
+                        "asset": "incidents/kharkiv/gorky/sat-before.jpg",
+                        "date": "9th July, 2021"
+                    },
+                    "after": {
+                        "asset": "incidents/kharkiv/gorky/sat-after.jpg",
+                        "date": "9th July, 2022"
+                    },
+                    "bbox": [36.240406781, 50.019997437, 36.246040723, 50.016098644]
+                },
+                "DATA": [
+                    {
+                        "ref": "Cafe",
+                        "asset": "incidents/kharkiv/gorky/after.jpg",
+                        "objects": "incidents/kharkiv/gorky/after.svg",
+                        "animation": "incidents/kharkiv/gorky/after.json"
+                    }
+                ]
+            }, 
+            "geometry": { 
+                "type": "MultiPolygon", 
+                "coordinates": [ [ [ [ 36.242428534570642, 50.018275037284575 ], [ 36.243233637016417, 50.017891919568996 ], [ 36.242889386315461, 50.017453277546821 ], [ 36.242173122760256, 50.017769766094467 ], [ 36.242428534570642, 50.018275037284575 ] ] ], [ [ [ 36.245004862397117, 50.017891919568996 ], [ 36.245321350944764, 50.018052940058155 ], [ 36.245604524908451, 50.017547668868048 ], [ 36.24526582663816, 50.017425515393519 ], [ 36.245004862397117, 50.017891919568996 ] ] ], [ [ [ 36.242833862008858, 50.019218950496857 ], [ 36.243133693264525, 50.019524334183188 ], [ 36.243622307162646, 50.019268922372802 ], [ 36.243350238060287, 50.018980195978457 ], [ 36.242833862008858, 50.019218950496857 ] ] ], [ [ [ 36.240424107102193, 50.017353333794929 ], [ 36.240529603284749, 50.017614298035973 ], [ 36.240901616138999, 50.017636507758617 ], [ 36.24098490259891, 50.017425515393519 ], [ 36.240668414051257, 50.017253390043038 ], [ 36.240424107102193, 50.017353333794929 ] ] ] ] 
+            } 
+        },
+        {
+            "type": "Feature", 
+            "properties": { 
+                "ID": 9,
+                "TITLE": "Transport",
+                "SUBTITLE": "15 avril",
+                "DATE": "2022-04-15",
+                "COVER": "incidents/kharkiv/tram/cover.mp4",
+                "TEXT_KEY": "train",
+                "REF": [
+                    "https://twitter.com/SarahAshtonLV/status/1514979180773089281"
+                ],
+                "SATELLITE": {
+                    "before": {
+                        "asset": "incidents/kharkiv/tram/sat-before.jpg",
+                        "date": "4th May, 2021"
+                    },
+                    "after": {
+                        "asset": "incidents/kharkiv/tram/sat-after.jpg",
+                        "date": "7th May, 2022"
+                    },
+                    "bbox": [36.358776441, 50.020811837, 36.361879669, 50.018664345]
+                },
+                "DATA": [
+                    {
+                        "asset": "incidents/kharkiv/tram/after.jpg",
+                        "objects": "incidents/kharkiv/tram/after.svg",
+                        "animation": "incidents/kharkiv/tram/after.json"
+                    }
+                ]
+            }, 
+            "geometry": { 
+                "type": "Polygon", 
+                "coordinates": [ [ [ 36.359135907532199, 50.019903190688566 ], [ 36.359380821142722, 50.020344035187506 ], [ 36.360553345053084, 50.019811348084623 ], [ 36.360268632980855, 50.019468469029896 ], [ 36.359135907532199, 50.019903190688566 ] ] ] 
+            } 
+        },
+        {
+            "type": "Feature", 
+            "properties": { 
+                "ID": 10,
+                "TITLE": "Marché Publique",
+                "SUBTITLE": "20 avril",
+                "DATE": "2022-04-20",
+                "COVER": "incidents/kharkiv/market/cover.mp4",
+                "TEXT_KEY": "market",
+                "REF": [
+                    "https://t.me/truexanewsua/42748",
+                    "https://twitter.com/truth_about_war/status/1517076152950607872",
+                    "https://twitter.com/TpyxaNews/status/1504233429872877568"
+                ],
+                "SATELLITE": {
+                    "before": {
+                        "asset": "incidents/kharkiv/market/sat-before.jpg",
+                        "date": "4th May, 2021"
+                    },
+                    "after": {
+                        "asset": "incidents/kharkiv/market/sat-after.jpg",
+                        "date": "7th May, 2022"
+                    },
+                    "bbox": [36.33481968, 50.026456529, 36.341027883, 50.022160336]
+                },
+                "DATA": [
+                    {
+                        "asset": "incidents/kharkiv/market/after.jpg",
+                        "objects": "incidents/kharkiv/market/after.svg",
+                        "animation": "incidents/kharkiv/market/after.json"
+                    }
+                ]
+            }, 
+            "geometry": { 
+                "type": "Polygon", 
+                "coordinates": [ [ [ 36.335706901900245, 50.024333746392863 ], [ 36.336447765572068, 50.02523992675178 ], [ 36.337292717528356, 50.024921539058106 ], [ 36.337421297173883, 50.02473173100995 ], [ 36.339184675169619, 50.024137815504446 ], [ 36.338627496705691, 50.023298986388419 ], [ 36.335706901900245, 50.024333746392863 ] ] ] 
+            } 
+        },
+        {
+            "type": "Feature", 
+            "properties": { 
+                "ID": 11,
+                "TITLE": "Bâtiment résidentiel",
+                "SUBTITLE": "11 juillet",
+                "DATE": "2022-07-11",
+                "COVER": "incidents/kharkiv/apartment/cover.mp4",
+                "TEXT_KEY": "apart",
+                "REF": [
+                    "https://www.youtube.com/watch?v=sJpUr58edYk",
+                    "https://twitter.com/GicAriana/status/1546380700181561346",
+                    "https://www.washingtonpost.com/world/2022/07/apartment/russian-strikes-kill-least-three-kharkiv-injure-dozens/"
+                ],
+                "SATELLITE": {
+                    "bbox": [36.235333468, 49.988692638, 36.238091044, 49.986784344 ]                    
+                },
+                "DATA": [
+                    {
+                        "asset": "incidents/kharkiv/apartment/after.jpg",
+                        "objects": "incidents/kharkiv/apartment/after.svg",
+                        "animation": "incidents/kharkiv/apartment/after.json"
+                    }
+                ]
+            }, 
+            "geometry": { 
+                "type": "Point", 
+                "coordinates": [36.23664465789781, 49.987720482615224]
+            } 
+        },
+        {
+            "type": "Feature", 
+            "properties": { 
+                "ID": 12,
+                "TITLE": "Énergie",
+                "SUBTITLE": "11 septembre",
+                "DATE": "2022-09-11",
+                "COVER": "incidents/kharkiv/power/cover.mp4",
+                "TEXT_KEY": "grid",
+                "REF": [
+                    "https://www.youtube.com/watch?v=tk2vH3q5yl0",
+                    "https://www.youtube.com/watch?v=80jIK24HZNA",
+                    "https://twitter.com/zelenskyyua/status/1569036175217655809",
+                    "https://twitter.com/netblocks/status/1569033385565093893",
+                    "Zaliutino Substation"
+                ],
+                "SATELLITE": {
+                    "bbox": [ 36.133604517, 49.968029723, 36.142611821, 49.974262947 ]
+                },
+                "DATA": [
+                    {
+                        "asset": "incidents/kharkiv/power/after.jpg",
+                        "objects": "incidents/kharkiv/power/after.svg",
+                        "animation": "incidents/kharkiv/power/after.json"
+                    }
+                ]
+            }, 
+            "geometry": { 
+                "type": "Point", 
+                "coordinates": [36.138086892762196, 49.9711398729387]
+            } 
+        }
+    ]
+}
